@@ -1,42 +1,29 @@
-# Minecraft Clone (Web)
+# Minecraft Clone
 
-A browser-based Minecraft-style sandbox built with React, TypeScript, `react-three-fiber`, and Rapier physics.
+A browser-based sandbox inspired by Minecraft, built with React, Three.js, and Rapier physics. It covers first-person movement, block placement, harvesting, and a small crafting loop.
 
-## Features
+## Highlights
 
-- First-person movement with pointer lock controls
-- Break/place block loop with a hotbar texture selector
-- Basic survival inventory counters (logs, planks, wheat)
-- Crafting shortcut (`F`: convert logs to planks)
-- Save and reset world actions in the UI
-- Three.js scene diagnostics and performance-focused render settings
+- Pointer-lock first-person controls
+- Break and place block gameplay
+- Simple inventory and crafting shortcuts
+- Persisted world actions and lightweight UI
 
-## Controls
+## Stack
 
-- `W A S D`: move
-- `Space`: jump
-- `Left Click`: punch / harvest
-- `Right Click`: place selected block
-- `1-7`: select hotbar item
-- `F`: craft 4 planks from 1 log
-
-## Tech Stack
-
-- React 19
+- React
 - TypeScript
-- Vite
-- `@react-three/fiber`, `@react-three/drei`
-- `@react-three/rapier`
-- Zustand
+- Three.js
+- Rapier
 
-## Run locally
+## Quick start
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+Build and preview:
 
 ```bash
 npm run build
